@@ -38,7 +38,7 @@ public class CourceAPP {
 	    config.setAllowedHeaders(Arrays.asList("Origin", "Content-Type", "Accept"));
 	    config.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "OPTIONS", "DELETE", "PATCH"));
 	    source.registerCorsConfiguration("/**", config);
-		//registration
+		//registration1
 	    FilterRegistrationBean registration = new FilterRegistrationBean(new CorsFilter(source));
 	    return registration;
 	}
